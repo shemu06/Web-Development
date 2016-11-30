@@ -1,0 +1,123 @@
+body{
+	
+	font-family: OpenSans;
+	font-size:14px;
+	width:1000px;
+}
+
+
+
+
+.headersection{display:inline-block;width:1000px;background:#2070A3;background-size:cover}
+.Header_area{margin-left:20px}
+.logo{width:200px;float:left}
+.logo img {
+  height: 50px;
+  margin-left: 27px;
+  width: 50px;
+  margin-top:5px;
+  margin-bottom:-5px
+}
+.logo h2 {
+  color: #fff;
+  font-size: 14px;
+  font-style: italic;
+  
+}
+
+.menu_area {
+  display: inline-block;
+  width: 550px;
+  margin-top: 14px;
+  float: right;
+}
+.menu_area ul{list-style:none;}
+.menu_area ul li {
+  float: left;
+  padding: 10px 0 0 50px;
+}
+.menu_area ul li a{text-decoration:none;font-size:16px;font-family: OpenSans;color:#fff}
+.menu_area ul li a:hover{}
+.bannersection{background-image:url(img/banner.jpg);
+				
+				background-repeat: no-repeat;
+				background-size: cover;
+				padding: 130px;
+				margin-top:-5px
+}
+.banner_area {
+  background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
+  padding: 31px 77px 70px;
+}
+
+.banner_area h1{	text-align:center;color:black}
+.banner_area p {	text-align:center;color:black;
+					font-size:16px;
+					font-weight:bold;
+					font-family:OpenSans;}
+.button {
+  margin: 0 auto;
+  width: 265px;
+}
+.button a {
+  background-color: transparent;
+  margin-left: 11px;
+  padding: 6px 20px 9px 18px;
+  color:black;
+  font-weight:bold;
+  border:1px solid ;
+  border-color:black;
+  text-decoration:none
+  
+}
+.contentsection {
+  background-color: #6ecdfd;
+  display: inline-block;
+  padding: 50px 0 58px 8px;
+  width: 1000px;
+}
+.Content_area{}
+.Content {
+  float: left;
+  margin-left: 127px;
+  width: 17%;
+}
+.Content h2{text-align:center}
+.Content p {
+  text-align: center;
+  margin-top: -6px;
+}
+.Content img {
+  border-radius: 100px;
+  height: 100px;
+  text-align: center;
+  width: 100px;
+  margin-left: 27px;
+}
+
+.footersection {
+  background: #2070a3 none repeat scroll 0 0;
+  display: inline-block;
+  margin-top: -4px;
+  padding: 18px 0 17px 24px;
+  width: 1000px;
+}
+.footer_area{}
+.footer_left{width:300px}
+
+.footer_left p{color:#fff;font-size:16px}
+
+.footer_right {
+  float: right;
+  margin-right: 65px;
+  margin-top: -39px;
+}
+.footer_right i {
+  background: #e6e6e6 none repeat scroll 0 0;
+  border-radius: 39px;
+  color: #000;
+  margin-right: 6px;
+  font-size:20px;
+  padding: 8px 10px 9px 9px;
+}
+
